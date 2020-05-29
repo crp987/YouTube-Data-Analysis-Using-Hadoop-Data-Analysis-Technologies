@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package top10_categories;
 
 import java.io.IOException;
@@ -22,10 +17,6 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-/**
- *
- * @author Rajat
- */
 public class Top10_Categories {
 
     public static class Map1 extends Mapper<Object, Text, Text, FloatWritable> {
